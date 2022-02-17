@@ -3,13 +3,13 @@ import 'package:equatable/equatable.dart';
 class Post extends Equatable {
   const Post({
     required this.id,
-    required this.tittle,
+    required this.title,
     required this.body,
   });
   final int id;
-  final String tittle;
+  final String title;
   final String body;
 
   @override
-  List<Object?> get props => [id, tittle, body];
+  List<Object?> get props => [id, title, body];
 }

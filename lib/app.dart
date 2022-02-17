@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 
-class App extends StatelessWidget {
-  const App({Key? key}) : super(key: key);
+import 'posts/view/view.dart';
 
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+class App extends MaterialApp {
+  const App({Key? key}) : super(key: key, home: const PostPage());
 }
